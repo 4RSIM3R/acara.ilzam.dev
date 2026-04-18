@@ -2,10 +2,8 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "acara-ilzam-dev",
   "compatibility_date": "2025-04-01",
-  "main": "./dist/_worker.js/index.js",
   "assets": {
-    "directory": "./dist",
-    "binding": "ASSETS"
+    "directory": "./dist"
   },
   "observability": {
     "enabled": true
